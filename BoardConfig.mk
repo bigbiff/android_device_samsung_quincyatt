@@ -41,7 +41,7 @@ TARGET_PREBUILT_KERNEL := device/samsung/i717/kernel
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
-BOARD_USE_CUSTOM_RECOVERY_FONT := "roboto_15x24.h"
+BOARD_USE_CUSTOM_RECOVERY_FONT:= \"roboto_15x24.h\"
 TARGET_RECOVERY_INITRC := device/samsung/i717/init.recovery.rc
 
 DEVICE_RESOLUTION := 800x1280
