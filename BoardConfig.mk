@@ -53,3 +53,13 @@ TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdc"
 TW_FLASH_FROM_STORAGE := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true
+SP1_NAME := "efs"
+SP1_BACKUP_METHOD := files
+SP1_MOUNTABLE := 1
+#TW_INCLUDE_CRYPTO := true
+#TW_CRYPTO_FS_TYPE := "ext4"
+#TW_CRYPTO_REAL_BLKDEV := "/dev/block/platform/omap/omap_hsmmc.0/by-name/userdata"
+#TW_CRYPTO_MNT_POINT := "/data"
+#TW_CRYPTO_FS_OPTIONS := "nomblk_io_submit,errors=panic"
+#TW_CRYPTO_FS_FLAGS := "0x00000406"
+#TW_CRYPTO_KEY_LOC := "/dev/block/platform/omap/omap_hsmmc.0/by-name/metadata"
