@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/samsung/i717/BoardConfigVendor.mk
+-include vendor/samsung/quincyatt/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 
@@ -22,7 +22,7 @@ BOARD_USES_ADRENO_200 := true
 TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := unknown
 TARGET_CPU_ABI := armeabi
-TARGET_BOOTLOADER_BOARD_NAME := i717
+TARGET_BOOTLOADER_BOARD_NAME := quincyatt
 
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_watchdog.appsbark=1 loglevel=4 
 BOARD_KERNEL_BASE := 0x48000000
@@ -36,20 +36,20 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x80200000
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_FORCE_RAMDISK_ADDRESS := 0x49400000
 
-TARGET_PREBUILT_KERNEL := device/samsung/i717/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/quincyatt/kernel
 
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_USE_CUSTOM_RECOVERY_FONT:= \"roboto_15x24.h\"
-TARGET_RECOVERY_INITRC := device/samsung/i717/init.recovery.rc
+TARGET_RECOVERY_INITRC := device/samsung/quincyatt/init.recovery.rc
 
 DEVICE_RESOLUTION := 800x1280
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_INTERNAL_STORAGE_PATH := "/emmc"
 TW_INTERNAL_STORAGE_MOUNT_POINT := "emmc"
-TW_EXTERNAL_STORAGE_PATH := "/sdc"
-TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdc"
+TW_EXTERNAL_STORAGE_PATH := "/sdcard"
+TW_EXTERNAL_STORAGE_MOUNT_POINT := "sdcard"
 TW_FLASH_FROM_STORAGE := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_HAS_DOWNLOAD_MODE := true

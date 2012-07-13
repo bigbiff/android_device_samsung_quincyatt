@@ -10,7 +10,7 @@
 
 /emmc		vfat	/dev/block/mmcblk0p28
 
-/sdc		vfat	/dev/block/mmcblk1p1	
+/sdcard		vfat	/dev/block/mmcblk1p1	
 
 # left here, because it was in recovery_mmc.fstab
 #/misc		mtd		misc

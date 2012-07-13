@@ -19,7 +19,7 @@ on init
     mkdir /data
     mkdir /cache
     mkdir /emmc
-    mkdir /sdc
+    mkdir /sdcard
     mount /tmp /tmp tmpfs
 
 on boot
