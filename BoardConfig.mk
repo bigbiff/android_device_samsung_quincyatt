@@ -11,6 +11,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
+TARGET_ARCH := arm
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
 
@@ -36,8 +37,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x80200000
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_FORCE_RAMDISK_ADDRESS := 0x49400000
 
-TARGET_PREBUILT_KERNEL := device/samsung/quincyatt/kernel
-
+#TARGET_PREBUILT_KERNEL := device/samsung/quincyatt/kernel
+TARGET_KERNEL_CONFIG := quincyatt_defconfig
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := codesourcery/arm-2010.09
+TARGET_KERNEL_SOURCE := kernel/samsung/quincyatt
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true

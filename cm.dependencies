@@ -1,0 +1,7 @@
+[
+ {
+   "repository": bigbiff/kernel_samsung_quincyatt_ics"",
+   "target_path": "kernel/samsung/quincyatt",
+   "branch": "master"
+ }
+]
