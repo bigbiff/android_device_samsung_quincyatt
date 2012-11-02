@@ -37,10 +37,10 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x80200000
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_FORCE_RAMDISK_ADDRESS := 0x49400000
 
-#TARGET_PREBUILT_KERNEL := device/samsung/quincyatt/kernel
-TARGET_KERNEL_CONFIG := quincyatt_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := codesourcery/arm-2010.09
-TARGET_KERNEL_SOURCE := kernel/samsung/quincyatt
+TARGET_PREBUILT_KERNEL := device/samsung/quincyatt/kernel
+#TARGET_KERNEL_CONFIG := quincyatt_defconfig
+#TARGET_KERNEL_CUSTOM_TOOLCHAIN := codesourcery/arm-2010.09
+#TARGET_KERNEL_SOURCE := kernel/samsung/quincyatt
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 BOARD_HAS_LARGE_FILESYSTEM := true

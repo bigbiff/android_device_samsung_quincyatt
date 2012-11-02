@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/device_i717.mk
+    $(LOCAL_DIR)/device_quincyatt.mk
