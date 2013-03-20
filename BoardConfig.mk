@@ -66,3 +66,6 @@ SP1_MOUNTABLE := 1
 #TW_CRYPTO_FS_OPTIONS := "nomblk_io_submit,errors=panic"
 #TW_CRYPTO_FS_FLAGS := "0x00000406"
 #TW_CRYPTO_KEY_LOC := "/dev/block/platform/omap/omap_hsmmc.0/by-name/metadata"
+TW_BRIGHTNESS_PATH := " /sys/devices/platform/msm_fb.524801/leds/lcd-backlight/brightness"
+TW_MAX_BRIGHTNESS := 255
+TW_NO_SCREEN_BLANK := true
