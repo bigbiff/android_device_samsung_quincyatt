@@ -14,8 +14,6 @@ persist.rild.nitz_short_ons_2=
 persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 
-dev.pm.dyn_samplingrate=1
-
 #system props for the MM modules
 media.stagefright.enable-player=true
 media.stagefright.enable-http=true
@@ -78,3 +76,7 @@ persist.radio.add_power_save=1
 # System proverty snapshot disable
 persist.radio.snapshot_disabled=1
 
+#System prop for screen flicker
+debug.composition.type=gpu
+persist.hwc.mdpcomp.enable=false
+dev.pm.dyn_samplingrate=1
